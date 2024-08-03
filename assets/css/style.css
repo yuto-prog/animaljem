@@ -1,0 +1,149 @@
+body {
+    background-color: #282828;
+    /* background-color: #FFFFFF; */
+    font-size: 1rem;
+    font-family: Hiragino Maru Gothic ProN W4, sans-serif;
+    /* color: #ffcc99; */
+    color: #ffffff;
+    line-height: normal;
+    letter-spacing: 0;
+}
+
+a,
+a:link,
+a:visited {
+    color: #FFFFFF;
+    display: block;
+    /* color: #ff9966; */
+}
+
+.logo {
+    display: block;
+    width: 100vw;
+    background-color: #661e22;
+    text-align: center;
+}
+
+.logo img {
+    width: 100vw;
+    max-width: 800px;
+    max-height: 203px;
+}
+
+nav {
+    width: 100vw;
+    margin: 5px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 20vw;
+    max-height: 46px;
+    background-color: #7e3639;
+}
+
+nav ul li a {
+    /* display: block; */
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+nav li:hover {
+    opacity: 0.8;
+    /* hover時の不透明度を調整します */
+}
+
+section {
+    margin: 0 10vw;
+    /* text-align: center; */
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    color: #a7585c;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #a7585c;
+}
+
+.animal_list {
+    display: block;
+    text-align: center;
+}
+
+.animal {
+    display: inline-block;
+    height: 100px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    width: 80%;
+}
+
+
+.shop_map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    max-width: 600px;
+    max-height: 450px;
+}
+
+.Apple-style-span {
+    border-collapse: separate;
+    color: #000000;
+    font-family: 'MS PGothic';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    orphans: 2;
+    text-align: auto;
+    text-indent: 0px;
+    text-transform: none;
+    white-space: normal;
+    word-spacing: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    -webkit-text-decorations-in-effect: none;
+    -webkit-text-size-adjust: auto;
+    -webkit-text-stroke-width: 0px;
+    font-size: medium;
+}
+
+
+.temp {
+    color: #3E5976;
+    color: #837e39;
+    color: #333333;
+    font-family: 'HiraKakuPro-W3', 'Osaka', 'MS PGothic', sans-serif;
+}
+
+footer {
+    background-color: #661e22;
+    height: 5vh;
+    margin-top: 2vh;
+}
+
+@media screen and (max-width: 960px) {}
+
+
+@media screen and (max-width: 768px) {
+    .flexbox {
+        flex-direction: column;
+    }
+
+    .flexbox div {
+        width: 100%;
+    }
+}
