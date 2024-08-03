@@ -1,0 +1,17 @@
+・platform.twitter.com
+→twitterの投稿内容をサイト上に表示するためのjs
+  ウィジェットで表示
+
+・snapwidget.com
+→SNS(今回はInstagram)の投稿を表示している。
+→NG：更新してないため更新を促されている
+
+cloudflareinsight
+→アクセス解析ツール。ビーコン埋め込み型。アナリティクス用
+閲覧数、上位の参照元、ホスト名、URL、国、ステータスコード、トラフィックの調査
+
+google-analytics
+→analytics.jsとgtag.jsがある。前者が古くサポート切れ
+
+web-cockpit
+→サポート終了している
