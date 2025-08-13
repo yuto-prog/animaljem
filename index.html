@@ -16,7 +16,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
+  <script src="./assets/js/common.js"></script>
   <title>【爬虫類両生類専門店】トロピカルジェム</title>
 </head>
 
@@ -77,7 +77,7 @@
 
   <section>
     <h2>生体一覧</h2>
-    <article class="animal_list">
+    <div class="animal_list">
       <div class="animal">
         <img src="./assets/img/whiteicon/spider_64.png" alt="spider">
         <p>クモ</p>
@@ -110,7 +110,7 @@
         <img src="./assets/img/whiteicon/mouse_64.png" alt="mouse">
         <p>マウス</p>
       </div>
-    </article>
+    </div>
   </section>
 
   <h2>トロピカルジェムについて</h2>
@@ -121,15 +121,15 @@
       <p>オーナー直通携帯電話 090-4870-0448</p>
       <p>E-mail : t-gem@isis.ocn.ne.jp</p>
       <p>一般社団法人 日本爬虫類両生類協会正会員</p>
-      <p>JPRAS【協会員番号】:jpr-3005</p>
+      <p><strong>【協会員番号】:jpr-3005</strong></p>
       <p>札保動セ販売 第１３１４号</p>
       <p>動物取扱責任者 松谷元気</p>
       <p>登録年月日 平成26年11月5日</p>
       <p>有効期限の末日 平成31年11月4日</p>
       <h3>★ACCESS★</h3>
       <p>〒006-0023</p>
-      <p id="address">北海道札幌市手稲区手稲本町３条１丁目４-３０<span><button onclick="copyButton ('copytxt')">Copy</button></span></p>
-      <span>営業時間:      <p>平日11:00～20:00<br>土日祝日11:00～19:00</p>
+      <div id="address">北海道札幌市手稲区手稲本町３条１丁目４-３０<span><button onclick="copyButton()">Copy</button></span></div>
+      <span>営業時間: <p>平日11:00～20:00<br>土日祝日11:00～19:00</p>
       </span>
       <p>定休日/水曜日</p>
     </div>
@@ -139,6 +139,8 @@
         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
+
+<section></section>
 
   <footer>
     <p>©opyright</p>
